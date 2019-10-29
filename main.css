@@ -1,0 +1,121 @@
+
+* {             /*removes default styling*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/*
+* main box:
+*/
+
+.hero {
+
+    display: flex;
+    background-color: rgb(47, 79, 79);
+    height: 100vh;
+    
+}
+
+.hero__content {
+
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    margin-right: 0;
+    padding: 30px;
+    width: 200px;
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -3px 0px 3px 3px rgba(0, 0, 0, 0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    color: rgb(47, 79, 79);
+
+}
+
+.hero__aside {
+  
+    background-image: url("town_view.jpg");
+    background-size: cover;
+    margin: 30px;
+    margin-left: 0;
+    flex: 3 1 auto;
+    box-shadow: 3px 0px 3px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/*
+* hero__content box:
+*/
+
+.navigation {
+
+    flex: 1 1 auto;
+    padding: 10px;
+
+}
+
+.header {
+
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    
+
+}
+
+.header h1 {
+
+    font-size: 4em;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.header p {
+
+    font-size: 2em;
+    line-height: 1.5em;
+
+}
+
+.contentForm {
+
+    flex: 1 1 auto;
+    padding: 10px;
+    font-size: 2em;
+
+}
+
+label {
+
+    display: block;
+    padding-bottom: 5px;
+    font-weight: bolder;
+
+}
+
+input:nth-child(2) {
+
+    width: 50%;
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+    font-size: 1em;
+    padding: 5px;
+    color: rgb(128, 128, 128);
+
+}
+
+input:nth-child(3) {
+
+    background-color: rgb(128, 128, 128);
+    font-size: 1em;
+    width: 60px;
+    height: 50px;
+
+}
